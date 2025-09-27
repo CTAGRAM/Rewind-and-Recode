@@ -1,0 +1,294 @@
+{
+  "phrases": [
+    {
+      "id": "hello",
+      "patterns": ["hello", "hi", "namaste", "namaskar"],
+      "islAsset": "hello.json"
+    },
+    {
+      "id": "thank-you",
+      "patterns": ["thank you", "thanks", "dhanyavaad"],
+      "islAsset": "thank-you.json"
+    },
+    {
+      "id": "how-are-you",
+      "patterns": ["how are you", "kaise hain", "kase aahe"],
+      "islAsset": "how-are-you.json"
+    },
+    {
+      "id": "welcome",
+      "patterns": ["welcome", "swagat"],
+      "islAsset": "welcome.json"
+    },
+    {
+      "id": "good-morning",
+      "patterns": ["good morning", "shubh prabhat", "shubh sakal"],
+      "islAsset": "good-morning.json"
+    },
+    {
+      "id": "good-evening",
+      "patterns": ["good evening", "shubh sandhya", "shubh sanje"],
+      "islAsset": "good-evening.json"
+    },
+    {
+      "id": "please",
+      "patterns": ["please", "kripya", "krupaya"],
+      "islAsset": "please.json"
+    },
+    {
+      "id": "sorry",
+      "patterns": ["sorry", "maaf kijiye", "maaf kar"],
+      "islAsset": "sorry.json"
+    },
+    {
+      "id": "yes",
+      "patterns": ["yes", "haa", "ho"],
+      "islAsset": "yes.json"
+    },
+    {
+      "id": "no",
+      "patterns": ["no", "nahin", "nahi"],
+      "islAsset": "no.json"
+    },
+    {
+      "id": "help",
+      "patterns": ["help", "madad", "sahayya"],
+      "islAsset": "help.json"
+    },
+    {
+      "id": "water",
+      "patterns": ["water", "paani", "paani"],
+      "islAsset": "water.json"
+    },
+    {
+      "id": "food",
+      "patterns": ["food", "khana", "khana"],
+      "islAsset": "food.json"
+    },
+    {
+      "id": "school",
+      "patterns": ["school", "vidyalaya", "shala"],
+      "islAsset": "school.json"
+    },
+    {
+      "id": "teacher",
+      "patterns": ["teacher", "guru", "shikshak"],
+      "islAsset": "teacher.json"
+    },
+    {
+      "id": "student",
+      "patterns": ["student", "vidyarthi", "vidyarthi"],
+      "islAsset": "student.json"
+    },
+    {
+      "id": "book",
+      "patterns": ["book", "kitab", "pustak"],
+      "islAsset": "book.json"
+    },
+    {
+      "id": "pen",
+      "patterns": ["pen", "kalam", "pen"],
+      "islAsset": "pen.json"
+    },
+    {
+      "id": "friend",
+      "patterns": ["friend", "dost", "mitra"],
+      "islAsset": "friend.json"
+    },
+    {
+      "id": "family",
+      "patterns": ["family", "parivar", "kutumb"],
+      "islAsset": "family.json"
+    },
+    {
+      "id": "home",
+      "patterns": ["home", "ghar", "ghar"],
+      "islAsset": "home.json"
+    },
+    {
+      "id": "play",
+      "patterns": ["play", "khel", "khel"],
+      "islAsset": "play.json"
+    },
+    {
+      "id": "learn",
+      "patterns": ["learn", "seekh", "shik"],
+      "islAsset": "learn.json"
+    },
+    {
+      "id": "work",
+      "patterns": ["work", "kaam", "kary"],
+      "islAsset": "work.json"
+    },
+    {
+      "id": "time",
+      "patterns": ["time", "samay", "vel"],
+      "islAsset": "time.json"
+    },
+    {
+      "id": "day",
+      "patterns": ["day", "din", "divas"],
+      "islAsset": "day.json"
+    },
+    {
+      "id": "night",
+      "patterns": ["night", "raat", "ratri"],
+      "islAsset": "night.json"
+    },
+    {
+      "id": "sun",
+      "patterns": ["sun", "suraj", "surya"],
+      "islAsset": "sun.json"
+    },
+    {
+      "id": "moon",
+      "patterns": ["moon", "chand", "chandra"],
+      "islAsset": "moon.json"
+    },
+    {
+      "id": "rain",
+      "patterns": ["rain", "baarish", "pavas"],
+      "islAsset": "rain.json"
+    },
+    {
+      "id": "happy",
+      "patterns": ["happy", "khush", "anand"],
+      "islAsset": "happy.json"
+    },
+    {
+      "id": "sad",
+      "patterns": ["sad", "dukh", "dukh"],
+      "islAsset": "sad.json"
+    },
+    {
+      "id": "love",
+      "patterns": ["love", "pyaar", "prem"],
+      "islAsset": "love.json"
+    },
+    {
+      "id": "good",
+      "patterns": ["good", "achha", "changa"],
+      "islAsset": "good.json"
+    },
+    {
+      "id": "bad",
+      "patterns": ["bad", "bura", "kharab"],
+      "islAsset": "bad.json"
+    },
+    {
+      "id": "big",
+      "patterns": ["big", "bada", "motha"],
+      "islAsset": "big.json"
+    },
+    {
+      "id": "small",
+      "patterns": ["small", "chhota", "lahan"],
+      "islAsset": "small.json"
+    },
+    {
+      "id": "hot",
+      "patterns": ["hot", "garam", "ushna"],
+      "islAsset": "hot.json"
+    },
+    {
+      "id": "cold",
+      "patterns": ["cold", "thanda", "thanda"],
+      "islAsset": "cold.json"
+    },
+    {
+      "id": "eat",
+      "patterns": ["eat", "khao", "kha"],
+      "islAsset": "eat.json"
+    },
+    {
+      "id": "drink",
+      "patterns": ["drink", "piyo", "pi"],
+      "islAsset": "drink.json"
+    },
+    {
+      "id": "sleep",
+      "patterns": ["sleep", "so", "zop"],
+      "islAsset": "sleep.json"
+    },
+    {
+      "id": "run",
+      "patterns": ["run", "bhago", "dhava"],
+      "islAsset": "run.json"
+    },
+    {
+      "id": "walk",
+      "patterns": ["walk", "chal", "chal"],
+      "islAsset": "walk.json"
+    },
+    {
+      "id": "sit",
+      "patterns": ["sit", "baith", "bas"],
+      "islAsset": "sit.json"
+    },
+    {
+      "id": "stand",
+      "patterns": ["stand", "khad", "uth"],
+      "islAsset": "stand.json"
+    },
+    {
+      "id": "come",
+      "patterns": ["come", "aao", "ya"],
+      "islAsset": "come.json"
+    },
+    {
+      "id": "go",
+      "patterns": ["go", "jao", "ja"],
+      "islAsset": "go.json"
+    },
+    {
+      "id": "see",
+      "patterns": ["see", "dekh", "paha"],
+      "islAsset": "see.json"
+    },
+    {
+      "id": "hear",
+      "patterns": ["hear", "sun", "aiku"],
+      "islAsset": "hear.json"
+    },
+    {
+      "id": "speak",
+      "patterns": ["speak", "bolo", "bol"],
+      "islAsset": "speak.json"
+    },
+    {
+      "id": "read",
+      "patterns": ["read", "padho", "wach"],
+      "islAsset": "read.json"
+    },
+    {
+      "id": "write",
+      "patterns": ["write", "likho", "likh"],
+      "islAsset": "write.json"
+    },
+    {
+      "id": "one",
+      "patterns": ["one", "ek", "ek"],
+      "islAsset": "one.json"
+    },
+    {
+      "id": "two",
+      "patterns": ["two", "do", "don"],
+      "islAsset": "two.json"
+    },
+    {
+      "id": "three",
+      "patterns": ["three", "teen", "tin"],
+      "islAsset": "three.json"
+    },
+    {
+      "id": "four",
+      "patterns": ["four", "char", "char"],
+      "islAsset": "four.json"
+    },
+    {
+      "id": "five",
+      "patterns": ["five", "paanch", "pach"],
+      "islAsset": "five.json"
+    }
+  ]
+}

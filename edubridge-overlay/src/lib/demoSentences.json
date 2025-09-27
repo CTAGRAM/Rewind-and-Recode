@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Hello, how are you?",
+    "lang": "en-US"
+  },
+  {
+    "text": "Namaste, aap kaise hain?",
+    "lang": "hi-IN"
+  },
+  {
+    "text": "Namaskar, tumhi kase aahe?",
+    "lang": "mr-IN"
+  },
+  {
+    "text": "Thank you for using EduBridge.",
+    "lang": "en-US"
+  },
+  {
+    "text": "Dhanyavaad, EduBridge ka upyog karne ke liye.",
+    "lang": "hi-IN"
+  },
+  {
+    "text": "Dhanyavaad, EduBridge cha upyog karnya sathi.",
+    "lang": "mr-IN"
+  },
+  {
+    "text": "This is a demo caption.",
+    "lang": "en-US"
+  },
+  {
+    "text": "Yeh ek demo caption hai.",
+    "lang": "hi-IN"
+  },
+  {
+    "text": "He ek demo caption aahe.",
+    "lang": "mr-IN"
+  },
+  {
+    "text": "Welcome to the overlay.",
+    "lang": "en-US"
+  }
+]
