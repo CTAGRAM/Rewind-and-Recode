@@ -1,0 +1,19 @@
+/* Minimal global styles for content script if needed outside shadow DOM */
+/* Most styles are in shadow DOM via Tailwind */
+
+#edubridge-root {
+  all: initial;
+  position: fixed;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+#edubridge-root * {
+  pointer-events: auto;
+}
+
+/* Ensure no overlap with Meet/Zoom toolbars */
+#edubridge-ribbon {
+  bottom: 0;
+  /* Auto-offset if toolbar detected */
+}

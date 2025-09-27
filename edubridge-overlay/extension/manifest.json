@@ -1,0 +1,85 @@
+{
+  "manifest_version": 3,
+  "name": "EduBridge Overlay",
+  "version": "1.0.0",
+  "description": "Chrome Extension for injecting draggable overlay UI on Meet and Zoom for captioning and ISL avatar.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": [
+    "https://meet.google.com/*",
+    "https://*.zoom.us/wc/*"
+  ],
+  "permissions": [
+    "scripting",
+    "storage",
+    "activeTab",
+    "tabCapture"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/*",
+        "https://*.zoom.us/wc/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "commands": {
+    "start-stop": {
+      "suggested_key": {
+        "default": "M"
+      },
+      "description": "Start/Stop audio capture"
+    },
+    "tts": {
+      "suggested_key": {
+        "default": "S"
+      },
+      "description": "Speak last simplified line"
+    },
+    "braille": {
+      "suggested_key": {
+        "default": "B"
+      },
+      "description": "Save .brf export"
+    },
+    "hide-overlays": {
+      "suggested_key": {
+        "default": "Escape"
+      },
+      "description": "Hide overlays"
+    },
+    "font-size-up": {
+      "suggested_key": {
+        "default": "Ctrl+Up"
+      },
+      "description": "Increase font size"
+    },
+    "font-size-down": {
+      "suggested_key": {
+        "default": "Ctrl+Down"
+      },
+      "description": "Decrease font size"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/*",
+        "public/*"
+      ],
+      "matches": ["https://meet.google.com/*", "https://*.zoom.us/wc/*"]
+    }
+  ]
+}
